@@ -21,12 +21,6 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 | `sciencepedia` | Looks up SciencePedia concept URLs (~145k entries). Many content workflows need to link back to SP entries — this is the shared lookup tool. | @1021ju | Claude Code |
 | `author-finder` | Finds researcher LinkedIn/X profiles for @mentioning in posts | @1021ju | Claude Code |
 
-### Meta Skills
-
-| Skill | What It Does | Author |
-|-------|--------------|--------|
-| `skill-creator` | Best practices guide for creating new Claude Code skills | @1021ju |
-
 > **Note on Bohrium Link Lookup:** The `paper-post-prep` skill contains a built-in script (`scripts/bohrium_lookup.py`) that can look up any paper's URL on Bohrium by DOI or title. This is a general-purpose utility embedded within `paper-post-prep`.
 
 ## Platform Compatibility
