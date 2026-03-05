@@ -1,4 +1,4 @@
-# Bohrium International — Claude Skills
+# Bohrium International Claude Skills
 
 Shared AI agent skills for the Bohrium international content operations team. These skills work with **Claude Code** and **OpenAI Codex CLI**, powering content workflows across Bohrium's social accounts and platforms.
 
@@ -27,8 +27,8 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 
 Skills in this repo may have variants optimized for different AI coding tools:
 
-- **Claude Code** — Anthropic's CLI tool (used by @1021ju)
-- **OpenAI Codex CLI** — OpenAI's CLI tool (used by some team members)
+- **Claude Code** — Anthropic's CLI tool
+- **OpenAI Codex CLI** — OpenAI's CLI tool
 
 If a skill has been adapted for a different platform, the variant lives on a separate branch (see [Contributing](#contributing)).
 
