@@ -1,0 +1,4 @@
+interface:
+  display_name: "PhDPal PhD Survive Guide"
+  short_description: "Create practical PhD survival guide posts for PhDPal."
+  default_prompt: "Create a PhDPal PhD Survive Guide post using the provided SOP and sources."

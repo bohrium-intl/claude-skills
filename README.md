@@ -1,4 +1,4 @@
-# Bohrium International Claude Skills
+﻿# Bohrium International Claude Skills
 
 <p align="center"><img src="banner.png" width="360"></p>
 
@@ -21,7 +21,7 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 
 | Skill | What It Does | Author | Platform |
 |-------|--------------|--------|----------|
-| `sciencepedia` | Looks up SciencePedia concept URLs (~145k entries). Many content workflows need to link back to SP entries — this is the shared lookup tool. | @1021ju | Claude Code |
+| `sciencepedia` | Looks up SciencePedia concept URLs (~145k entries). Many content workflows need to link back to SP entries 鈥?this is the shared lookup tool. | @1021ju | Claude Code |
 | `author-finder` | Finds researcher LinkedIn/X profiles for @mentioning in posts | @1021ju | Claude Code |
 
 > **Note on Bohrium Link Lookup:** The `paper-post-prep` skill contains a built-in script (`scripts/bohrium_lookup.py`) that can look up any paper's URL on Bohrium by DOI or title. This is a general-purpose utility embedded within `paper-post-prep`.
@@ -30,8 +30,8 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 
 Skills in this repo may have variants optimized for different AI coding tools:
 
-- **Claude Code** — Anthropic's CLI tool
-- **OpenAI Codex CLI** — OpenAI's CLI tool
+- **Claude Code** 鈥?Anthropic's CLI tool
+- **OpenAI Codex CLI** 鈥?OpenAI's CLI tool
 
 If a skill has been adapted for a different platform, the variant lives on a separate branch (see [Contributing](#contributing)).
 
@@ -57,3 +57,4 @@ done
 We use a **branch model** for collaboration. Everyone pushes to their own branch, then opens a PR to `main`.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide, including how to use Codex CLI to push your skills.
+
