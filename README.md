@@ -16,6 +16,9 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 | `sciencepedia-wordcard` | [@BohriumSP](https://x.com/BohriumSP) | Generates PNG word cards for SciencePedia concepts, used as reply attachments | @1021ju | Claude Code |
 | `paper-scout` | Paper of the Day ([@Bohrium_AI4S](https://x.com/Bohrium_AI4S) / may move to @BohriumDecoder) | Discovers and ranks trending papers for social posting | @1021ju | Claude Code |
 | `paper-post-prep` | Paper of the Day ([@Bohrium_AI4S](https://x.com/Bohrium_AI4S) / may move to @BohriumDecoder) + LinkedIn | Prepares all assets for Paper of the Day posts (includes Bohrium link lookup) | @1021ju | Claude Code |
+| `phdpal-daily-science-stories` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Creates daily science-history slice stories with verifiable sources and emotional translation | @yinyi1216-cmyk | Codex CLI |
+| `phdpal-phd-survive-guide` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Produces practical PhD survival guide content (Scene/Pain/Laugh/Do framework) | @yinyi1216-cmyk | Codex CLI |
+| `phd-lite-knowledge` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Transforms curated sources into traceable PhD light-knowledge posts | @yinyi1216-cmyk | Codex CLI |
 
 ### Utility Skills (used across accounts)
 
