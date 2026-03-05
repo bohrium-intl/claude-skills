@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium KOL Discovery"
+  short_description: "Discover and prioritize Bohrium creators."
+  default_prompt: "Use $bohrium-kol-discovery to run end-to-end creator discovery, scoring, tiering, and outreach drafting."

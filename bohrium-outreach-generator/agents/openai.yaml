@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium Outreach Generator"
+  short_description: "Draft personalized outreach for creators."
+  default_prompt: "Use $bohrium-outreach-generator to generate concise personalized outreach messages for selected creators."

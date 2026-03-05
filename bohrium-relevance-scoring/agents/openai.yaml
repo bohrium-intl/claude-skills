@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium Relevance Scoring"
+  short_description: "Score creator relevance to science audiences."
+  default_prompt: "Use $bohrium-relevance-scoring to score audience fit, depth, and credibility for each creator."
