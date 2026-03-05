@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium Discovery"
+  short_description: "Screen creators for initial Bohrium fit."
+  default_prompt: "Use $bohrium-discovery to filter creators and decide who should move to detailed scoring."

@@ -23,6 +23,11 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 |-------|--------------|--------|----------|
 | `sciencepedia` | Looks up SciencePedia concept URLs (~145k entries). Many content workflows need to link back to SP entries — this is the shared lookup tool. | @1021ju | Claude Code |
 | `author-finder` | Finds researcher LinkedIn/X profiles for @mentioning in posts | @1021ju | Claude Code |
+| `bohrium-discovery` | First-pass creator screening based on profile and recent content relevance to Bohrium's research focus. | @cyf2277 | Codex CLI |
+| `bohrium-relevance-scoring` | Multi-dimensional relevance scoring for creator content (audience fit, depth, credibility, specificity). | @cyf2277 | Codex CLI |
+| `bohrium-conversion-scoring` | Estimates creator conversion and collaboration likelihood for Bohrium campaigns. | @cyf2277 | Codex CLI |
+| `bohrium-tiering-priority` | Assigns creator tier, outreach priority, and recommended collaboration model. | @cyf2277 | Codex CLI |
+| `bohrium-outreach-generator` | Generates concise personalized outreach drafts for shortlisted creators. | @cyf2277 | Codex CLI |
 
 > **Note on Bohrium Link Lookup:** The `paper-post-prep` skill contains a built-in script (`scripts/bohrium_lookup.py`) that can look up any paper's URL on Bohrium by DOI or title. This is a general-purpose utility embedded within `paper-post-prep`.
 

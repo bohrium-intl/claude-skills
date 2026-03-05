@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium Tiering Priority"
+  short_description: "Assign creator tiers and outreach priority."
+  default_prompt: "Use $bohrium-tiering-priority to assign tier, priority, and collaboration model for each creator."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bohrium Conversion Scoring"
+  short_description: "Estimate creator conversion potential."
+  default_prompt: "Use $bohrium-conversion-scoring to evaluate collaboration likelihood and conversion signals."
