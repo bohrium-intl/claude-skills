@@ -12,7 +12,7 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 |-------|-----------------|--------------|--------|----------|
 | `x-news-post` | [@BohriumNews](https://x.com/BohriumNews) | Drafts X posts for science/tech news stories | @1021ju | Claude Code |
 | `x-post-image` | [@BohriumNews](https://x.com/BohriumNews) | Generates companion images (charts, graphics) for X posts | @1021ju | Claude Code |
-| `review` | X reply workflow for team and personal science tech accounts | Verifies X post claims, analyzes media context, and generates bilingual reply drafts in multiple styles | @Laurence | OpenAI Codex CLI |
+| `review` | [@BohriumNews](https://x.com/BohriumNews) / [@BohriumDecoder](https://x.com/BohriumDecoder) | Verifies X post claims, analyzes media context, and generates bilingual reply drafts in multiple styles | @Laurence | OpenAI Codex CLI |
 | `sciencepedia-wordcard` | [@BohriumSP](https://x.com/BohriumSP) | Generates PNG word cards for SciencePedia concepts, used as reply attachments | @1021ju | Claude Code |
 | `paper-scout` | Paper of the Day ([@Bohrium_AI4S](https://x.com/Bohrium_AI4S) / may move to @BohriumDecoder) | Discovers and ranks trending papers for social posting | @1021ju | Claude Code |
 | `paper-post-prep` | Paper of the Day ([@Bohrium_AI4S](https://x.com/Bohrium_AI4S) / may move to @BohriumDecoder) + LinkedIn | Prepares all assets for Paper of the Day posts (includes Bohrium link lookup) | @1021ju | Claude Code |
