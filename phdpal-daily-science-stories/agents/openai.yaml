@@ -1,0 +1,4 @@
+interface:
+  display_name: "PhDPal Daily Science Stories"
+  short_description: "Draft daily PhDPal science story posts from source links."
+  default_prompt: "Create a PhDPal Daily Science Story using the provided SOP and sources, and output everything in English."
