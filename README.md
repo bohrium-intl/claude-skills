@@ -1,4 +1,4 @@
-# Bohrium International Claude Skills
+# Bohrium International | Claude Skills
 
 Shared AI agent skills for the Bohrium international content operations team. These skills work with **Claude Code** and **OpenAI Codex CLI**, powering content workflows across Bohrium's social accounts and platforms.
 
