@@ -19,6 +19,7 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 | `phdpal-daily-science-stories` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Creates daily science-history slice stories with verifiable sources and emotional translation | @yinyi1216-cmyk | Codex CLI |
 | `phdpal-phd-survive-guide` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Produces practical PhD survival guide content (Scene/Pain/Laugh/Do framework) | @yinyi1216-cmyk | Codex CLI |
 | `phd-lite-knowledge` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Transforms curated sources into traceable PhD light-knowledge posts | @yinyi1216-cmyk | Codex CLI |
+| `tutorial-cover-image` | Tutorials / Tool Comparison | Generates 16:9 pastel editorial cover images for Bohrium tutorial and tool-comparison articles | Hu Jiaxin | OpenAI Codex CLI |
 
 ### Utility Skills (used across accounts)
 
