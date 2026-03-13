@@ -1,0 +1,49 @@
+﻿{
+  "article": "gromacs-vs-lammps-comparison-trial.md",
+  "checked_date": "2026-03-10",
+  "hard_checks": {
+    "all_numbers_match_fact_sheet": true,
+    "no_hallucinated_versions": true,
+    "sciencepedia_definitions_accurate": true,
+    "follows_template_structure": true,
+    "comparison_table_present": true,
+    "word_count_in_range": true,
+    "has_yaml_frontmatter": true,
+    "title_contains_primary_keyword": true,
+    "meta_desc_under_155_chars": true,
+    "sciencepedia_links_gte_5": true,
+    "has_external_doc_links": true,
+    "no_broken_links": "format_checked"
+  },
+  "counts": {
+    "word_count": 2514,
+    "sciencepedia_links": 8,
+    "paper_links": 3,
+    "official_external_links": 4
+  },
+  "quality_score": {
+    "total_score": 91,
+    "grade": "PUBLISH",
+    "breakdown": {
+      "paper_citations_from_bohrium": 10,
+      "cites_official_docs": 10,
+      "sciencepedia_integration_quality": 9,
+      "avoids_secondary_sources": 5,
+      "unique_info_vs_competitors": 8,
+      "comparison_table_completeness": 8,
+      "no_filler_paragraphs": 6,
+      "actionable_recommendations": 5,
+      "jargon_explained_on_first_use": 6,
+      "logical_flow": 7,
+      "appropriate_paragraph_length": 5,
+      "h2_standalone_answerable": 6,
+      "summary_table_placement": 5,
+      "scannable_without_reading": 4
+    }
+  },
+  "improvement_suggestions": [
+    "Keep bohrium-lookup as the first resolver and retry DOI if title lookup hits transient SSL errors.",
+    "Implement automated URL checker with retry and domain-specific fallback to mark no_broken_links as fully verified.",
+    "In Step 2, normalize SciencePedia term candidates because product names like GROMACS/LAMMPS currently fuzzy-match to wrong slugs."
+  ]
+}

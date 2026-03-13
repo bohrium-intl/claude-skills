@@ -1,0 +1,73 @@
+﻿{
+  "topic": "GROMACS vs LAMMPS",
+  "checked_date": "2026-03-10",
+  "key_facts": [
+    {
+      "fact": "GROMACS 2026.0 was released on January 27, 2026.",
+      "source": "GROMACS official website",
+      "url": "https://www.gromacs.org/",
+      "confidence": "high"
+    },
+    {
+      "fact": "GROMACS documentation currently tracks the 2026.1 series.",
+      "source": "GROMACS official docs",
+      "url": "https://manual.gromacs.org/current/release-notes/index.html",
+      "confidence": "high"
+    },
+    {
+      "fact": "LAMMPS download page lists stable release as 22 Jul 2025 and latest feature release as 11 Feb 2026.",
+      "source": "LAMMPS official download page",
+      "url": "https://www.lammps.org/download.html",
+      "confidence": "high"
+    },
+    {
+      "fact": "LAMMPS benchmark examples are available under examples/PACKAGES/electrode and can be used as a reproducible baseline.",
+      "source": "LAMMPS official docs",
+      "url": "https://docs.lammps.org/Speed_packages.html",
+      "confidence": "high"
+    },
+    {
+      "fact": "A 2025 arXiv study on redesigning GROMACS halo exchange reports up to 1.5x speedup and sustained parallel efficiency above 50% on tested benchmarks.",
+      "source": "arXiv (resolved on Bohrium)",
+      "url": "https://arxiv.org/abs/2509.21527",
+      "bohrium_url": "https://www.bohrium.com/en/paper-details/redesigning-gromacs-halo-exchange-improving-strong-scaling-with-gpu-initiated-nvshmem/1179413981161324550-108512",
+      "confidence": "high"
+    },
+    {
+      "fact": "A 2025 arXiv paper on Kokkos-accelerated MTP in LAMMPS reports up to 2x speedup versus a baseline implementation on tested systems.",
+      "source": "arXiv (resolved on Bohrium)",
+      "url": "https://arxiv.org/abs/2510.00193",
+      "bohrium_url": "https://www.bohrium.com/en/paper-details/a-kokkos-accelerated-moment-tensor-potential-implementation-for-lammps/1225149462494576641-2763",
+      "confidence": "high"
+    },
+    {
+      "fact": "A 2025 arXiv benchmark paper on LAMMPS with AMD Instinct GPUs reports 2x to 3x gains from compiler options and additional order-of-magnitude gains from kernel-level optimizations in selected workloads.",
+      "source": "arXiv (resolved on Bohrium)",
+      "url": "https://arxiv.org/abs/2505.09727",
+      "bohrium_url": "https://www.bohrium.com/en/paper-details/accelerating-fast-ewald-summation-with-prolates-for-molecular-dynamics-simulations/1130109432122834946-108509",
+      "confidence": "high"
+    }
+  ],
+  "official_doc_links": [
+    "https://manual.gromacs.org/current/release-notes/index.html",
+    "https://docs.lammps.org/Manual.html",
+    "https://docs.lammps.org/Speed_packages.html",
+    "https://www.lammps.org/download.html"
+  ],
+  "latest_version_info": {
+    "gromacs": {
+      "version": "2026.1 series (current docs)",
+      "release_reference": "2026.0 released Jan 27, 2026",
+      "source": "https://www.gromacs.org/"
+    },
+    "lammps": {
+      "stable_release": "22 Jul 2025",
+      "latest_feature_release": "11 Feb 2026",
+      "source": "https://www.lammps.org/download.html"
+    }
+  },
+  "notes": [
+    "Performance numbers depend heavily on force field, hardware, system size, and decomposition strategy.",
+    "Bohrium URLs for all three paper citations were resolved successfully with bohrium-lookup on 2026-03-10."
+  ]
+}
