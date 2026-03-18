@@ -19,6 +19,8 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 | `phdpal-daily-science-stories` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Creates daily science-history slice stories with verifiable sources and emotional translation | @yinyi1216-cmyk | Codex CLI |
 | `phdpal-phd-survive-guide` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Produces practical PhD survival guide content (Scene/Pain/Laugh/Do framework) | @yinyi1216-cmyk | Codex CLI |
 | `phd-lite-knowledge` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Transforms curated sources into traceable PhD light-knowledge posts | @yinyi1216-cmyk | Codex CLI |
+| `phdpal-social-visual` | [@BohriumPhDPal](https://x.com/BohriumPhDPal) | Designs and exports publication-ready social media carousel slides (X/LinkedIn) with editorial composition, brand colors, and 2x Puppeteer export | @1021ju | Claude Code |
+
 ### Utility Skills (used across accounts)
 
 | Skill | What It Does | Author | Platform |
