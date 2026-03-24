@@ -27,8 +27,11 @@ Shared AI agent skills for the Bohrium international content operations team. Th
 |-------|--------------|--------|----------|
 | `sciencepedia` | Looks up SciencePedia concept URLs (~145k entries). Many content workflows need to link back to SP entries — this is the shared lookup tool. | @1021ju | Claude Code |
 | `author-finder` | Finds researcher LinkedIn/X profiles for @mentioning in posts | @1021ju | Claude Code |
+| `review-decoder` | Deconstructs X posts and generates adaptive bilingual reply drafts with local Gemini support, tuned for natural human tone | @Laurence | OpenAI Codex CLI |
 | `tutorial-cover-image` | Generates 16:9 pastel editorial cover images for Bohrium tutorial and tool-comparison articles | @Laurence | OpenAI Codex CLI |
 | `tutorial-blog-generation` | Bundles the non-image tutorial/blog workflow: SciencePedia concept lookup, tool-page lookup, Bohrium paper URL resolution, fact-sheet support, QA, and sample outputs | @Laurence | OpenAI Codex CLI |
+
+`[Utility Skills /@Laurence/OpenAI Codex CLI]`
 
 > **Note on Bohrium Link Lookup:** The `paper-post-prep` skill contains a built-in script (`scripts/bohrium_lookup.py`) that can look up any paper's URL on Bohrium by DOI or title. This is a general-purpose utility embedded within `paper-post-prep`.
 
