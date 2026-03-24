@@ -1,4 +1,0 @@
-interface:
-  display_name: "Tutorial Cover Image"
-  short_description: "Generate 16:9 tutorial/tool-comparison cover art."
-  default_prompt: "Create a Bohrium tutorial or tool-comparison cover image from an article index.md using the built-in pastel editorial style."
